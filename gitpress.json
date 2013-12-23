@@ -2,10 +2,9 @@
 	"docs"        : {
                 "JAVAWEB"         : "posts/javaweb",
                 "LINUX"        : "posts/linux",
-                "生活随笔"    : "posts/lives",
-                "关于我"      : "posts/about"
+                "生活随笔"    : "posts/lives"
         },
-        "perpage"     : 10,
+        "perpage"     : 5,
         "template"    : "greyshade", // default、slate、tactile、phase、pithiness、greyshade
         "types"       : {
                 "\\.(md||markdown)$"   : "markdown",
@@ -13,9 +12,9 @@
                 "\\.html?$"            : "html",
                 ".*"                   : "text"
         },
-        "title"       : "Ran.Yang",
-        "comment"     : {"type": "ran", "short_name": "ran"},
-        "domain-alias": ["blog.ranyang.com"],
+        "title"       : "Ran.Yang's Blog",
+        "comment"     : "ON",
+        "domain-alias": ["blog.ranyang.org"],
         "friends"  : [
                 {
                 "name" : "JerryQu的小站",
