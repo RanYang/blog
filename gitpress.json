@@ -1,10 +1,11 @@
 {
-	"docs"        : {
-                "JAVAWEB"         : "posts/javaweb",
-                "LINUX"        : "posts/linux",
-                "生活随笔"    : "posts/lives"
+        "docs"        : {
+                "CSS"         : "posts/css",
+                "HTML"        : "posts/html",
+                "生活随笔"    : "posts/life",
+                "关于我"      : "posts/about"
         },
-        "perpage"     : 5,
+        "perpage"     : 10,
         "template"    : "greyshade", // default、slate、tactile、phase、pithiness、greyshade
         "types"       : {
                 "\\.(md||markdown)$"   : "markdown",
@@ -12,9 +13,9 @@
                 "\\.html?$"            : "html",
                 ".*"                   : "text"
         },
-        "title"       : "Ran.Yang's Blog",
-        "comment"     : "on",
-        "domain-alias": ["blog.ranyang.org"],
+        "title"       : "CSS探索之旅",
+        "comment"     : {"type": "duoshuo", "short_name": "doyoe"},
+        "domain-alias": ["blog.doyoe.com"],
         "friends"  : [
                 {
                 "name" : "JerryQu的小站",
