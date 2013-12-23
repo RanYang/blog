@@ -5,7 +5,8 @@
                 "linux": "posts/linux",
 		"随笔":"post/lives",
                 "其他": "posts"
-        },        
+        },
+	"template"    : "greyshade", // default、slate、tactile、phase、pithiness、greyshade        
         "perpage"   : 5,
         "types"     : {
                 "\\.(md||markdown)$"   : "markdown", 
@@ -14,8 +15,8 @@
                 ".*"                   : "text"                
         },
         "title"  : "Ran.Yang's Blog",
-        "comment"  : "on",
-        "friends"  : [
+        "comment"     : {"type": "duoshuo", "short_name": "ran.yang"},
+	"friends"  : [
                 {
                         "name"  : "JerryQu的小站",
                         "title"  : "屈屈的博客",
