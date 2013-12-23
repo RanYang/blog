@@ -13,7 +13,7 @@
                 ".*"                   : "text"
         },
         "title"       : "Ran.Yang's Blog",
-        "comment"     : "ON",
+        "comment"     : "on",
         "domain-alias": ["blog.ranyang.org"],
         "friends"  : [
                 {
