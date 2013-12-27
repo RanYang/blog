@@ -1,0 +1,2 @@
+####利用XARGS实现输出到重定向
+echo a | xargs -I {} sh -c "echo {} > {}.out"
